@@ -1,0 +1,12 @@
+# فایل‌های سیستمی
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ویرایشگرها
+.vscode/
+.idea/
+
+# لاگ و فایل‌های موقت محلی
+*.log
+tmp/

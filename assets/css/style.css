@@ -363,6 +363,14 @@ a:hover {
   font-weight: 400;
 }
 
+/* گروه مدارک لاتین تا حد امکان در یک خط می‌مانند */
+.degree-group {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.2rem 0.4rem;
+}
+
 .hero-text {
   max-width: 34rem;
   color: var(--color-muted);

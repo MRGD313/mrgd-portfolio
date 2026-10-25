@@ -371,6 +371,13 @@ a:hover {
   gap: 0.2rem 0.4rem;
 }
 
+/* جداکننده همراه با گروه مدارک می‌شکند تا تنها در انتهای خط نماند */
+.degrees-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
 .hero-text {
   max-width: 34rem;
   color: var(--color-muted);

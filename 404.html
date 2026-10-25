@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>صفحه پیدا نشد | محمدرضا گنج دانش</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/assets/icons/favicon.svg" type="image/svg+xml">
+  <!-- مسیرها مطلق‌اند چون این صفحه برای هر آدرس نامعتبری سرو می‌شود -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <style>
+    .error-wrap {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 0.5rem;
+      padding: 2rem 1.25rem;
+    }
+    .error-code {
+      font-size: clamp(4rem, 14vw, 7rem);
+      font-weight: 700;
+      line-height: 1;
+      color: var(--color-navy);
+      letter-spacing: -0.03em;
+    }
+    .error-code span { color: var(--color-teal-light); }
+    .error-title { font-size: clamp(1.3rem, 3vw, 1.7rem); }
+    .error-text {
+      color: var(--color-muted);
+      max-width: 30rem;
+      margin-bottom: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+  <main class="error-wrap">
+    <p class="error-code">۴<span>۰</span>۴</p>
+    <h1 class="error-title">این صفحه پیدا نشد</h1>
+    <p class="error-text">
+      آدرسی که وارد کرده‌اید وجود ندارد یا جابه‌جا شده است.
+    </p>
+    <a class="btn btn-primary" href="/">بازگشت به صفحه اصلی</a>
+  </main>
+</body>
+</html>

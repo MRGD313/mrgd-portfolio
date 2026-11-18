@@ -113,6 +113,17 @@ a {
   transition: color var(--ease);
 }
 
+/* بازخورد لمس هماهنگ با تم، به‌جای هایلایت آبی پیش‌فرض موبایل */
+a,
+button {
+  -webkit-tap-highlight-color: rgba(15, 118, 110, 0.14);
+}
+
+.btn,
+.nav-toggle {
+  touch-action: manipulation;
+}
+
 a:hover {
   color: var(--color-teal-light);
 }
